@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 import collections
 import sys
@@ -5,8 +6,8 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='MISHA', first_name='asdhfasbkjaskjfbaskjbcnaslncasl', last_name='dafgsddfsfd',
-           facts=['GITHUBBBBBBBBBBBBBBBBBBBBBBBB', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='asfkjhaskfjhasklfhaskfjhsldjfghbsdikjfbsDLJ', first_name='asdhfasbkjaskjfbaskjbcnaslncasl', last_name='dafgsddfsfd',
+           facts=['GITHUBBBBBsaddfguasghjfgasghjfgjasjghfgjajghsBBBBBBBBBBBBBBBBBBB', 'Fact-write.', 'Fact-right.']),
 ]
 
 answers = {}
