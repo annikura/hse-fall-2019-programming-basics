@@ -5,8 +5,8 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='kot239', first_name='German', last_name='Tarabonda',
+           facts=['I was a participant in Chemistry olymoiad.', 'I was born in Pechora.', 'Un po parlo Italiano']),
 ]
 
 answers = {}
@@ -67,7 +67,6 @@ def load_answers():
 
 if __name__ == '__main__':
     print("Hi! Let's play the game of facts!")
-    # load_answers()
     while True:
         print('> ', end='', flush=True)
         try:
