@@ -9,7 +9,7 @@ people = [
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
 ]
 
-answers = {}
+answers = {'uue119', 'Anna', 'Mikhaylova', ['i want to die','i like tomatoes','my name is Maks']}
 
 
 def format_person_info(person):
