@@ -5,12 +5,13 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='DF5HSE', first_name='Denis', last_name='Filippov',
+           facts=['Computer Graphics Support Group of Gubernatorial Physics & Mathematics Lyceum #30.',
+                  '#239 lyceum is the best school in Saint-Petersburg', 
+                  '#30 lyceum is the best school in Saint-Petersburg', 'CGSG forever 30']),
 ]
 
 answers = {}
-
 
 def format_person_info(person):
     return f'Name: {person.first_name} {person.last_name}.'
